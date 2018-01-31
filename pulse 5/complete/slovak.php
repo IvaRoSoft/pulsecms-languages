@@ -91,13 +91,15 @@ $lang_pages_template = 'Šablóna stránky';
 // Create - Vytvoriť
 $lang_create_file_or_folder = 'Nová stránka';
 $lang_create_file_or_folder_block = "Nový Blok";
-$lang_create_file_or_folder_blog  = "Nový Blog";
-$lang_create_file_or_folder_page  = "Nová Stránka";
+$lang_create_file_or_folder_blog = "Nový Blog";
+$lang_create_file_or_folder_page = "Nová Stránka";
 $lang_create_file_or_folder_media = "Nové Média";
+
 $lang_create_item_block = 'Vytvoriť Blok';
-$lang_create_item_blog  = 'Vytvoriť Blog';
-$lang_create_item_page  = 'Vytvoriť Stránku';
+$lang_create_item_blog = 'Vytvoriť Blog';
+$lang_create_item_page = 'Vytvoriť Stránku';
 $lang_create_item_media = 'Vložiť Média'; 
+$lang_create_item_folder = 'Zložka';
 $lang_create_button = "Vytvoriť"; 
 $lang_create_tool_tip = "Stránky, bloky a príspevky na blogu musia končiť príponou '.txt'. Ak chcete vytvoriť priečinok, neuvádzajte príponou '.txt'.";
 $lang_create_embed = "Vložiť";
@@ -105,7 +107,7 @@ $lang_create_embed_tag = "Vložiť tag.";
 $lang_create_embed_url = "Vložiť URL:";
 $lang_create_embed_html = "Vložiť HTML:";
 $lang_create_embed_php = "Vložiť PHP:";
-$lang_create_block_move = "Presunúť blok do"; 
+$lang_create_block_move = "Presunúť blok do";
 $lang_create_media_move = "Presuňte média do";
 $lang_create_folder_error = 'Nie je možné vytvoriť novú zložku';
 $lang_create_folder_error_exists = 'Nový priečinok už existuje';
@@ -147,16 +149,16 @@ $lang_blog_custom = 'Vlastný popis META';
 $lang_form_error1 = 'Prosim vyplnte údaje ';
 $lang_form_error2a = 'Vaše údaje ';
 $lang_form_error2b = ' je príliš dlhé.';
-$lang_form_subject_line = 'Kovtakt';
+$lang_form_subject_line = 'Kontakt';
 $lang_form_email_sent = 'E-mail bol odoslaný';
 $lang_form_sent_button = 'Odoslať';
 $lang_auto_thank_contact = 'Ďakujem za zaslanie e-mailu! Na Váš e-mail odpoviem hneď ako to bude možné.';
 
 // Newsletter Form - Informačný Formulár
-$lang_newsletter_thanks ='Vďaka!';
-$lang_newsletter_try_again ='Skúste to znova';
-$lang_newsletter_placeholder ='Zadajte e-mail';
-$lang_newsletter_send ='Prihlásiť sa';
+$lang_newsletter_thanks = 'Vďaka!';
+$lang_newsletter_try_again = 'Skúste to znova';
+$lang_newsletter_placeholder = 'Zadajte e-mail';
+$lang_newsletter_send = 'Prihlásiť sa';
 
 // Redactor
 $lang_redactor_mail_button = 'Pridá e-mail do textu';
@@ -174,19 +176,19 @@ $lang_stats_online = "Prítomný";
 $lang_stats_thisweek = "Tento týždeň";
 $lang_stats_todays_stats = "Dnes";
 $lang_stats_nodata = "Žiadne dáta";
-$lang_stats_browsers  = "prehliadače";
+$lang_stats_browsers = "prehliadače";
 $lang_stats_countries = "Krajiny";
-$lang_stats_devices   = "zariadenia";
-$lang_stats_systems   = "systémy";
+$lang_stats_devices = "zariadenia";
+$lang_stats_systems = "systémy";
 
 // Sweet Alert  - Chybová správa
-$lang_sweetalert_ok    = "OK";
+$lang_sweetalert_ok = "OK";
 $lang_sweetalert_saved = "Uložené";
 
 // Custom post types - Vlastné typy príspevkov
 $lang_custom_post_type_error_illegal_characters = 'Názov príspevku má nepovolené znaky';
-$lang_custom_post_type_error_illegal_name       = 'Názov príspevku má nepovolený názov';
-$lang_custom_post_type_error_unknown_entry      = 'Tento príspevok nie je známy';
+$lang_custom_post_type_error_illegal_name = 'Názov príspevku má nepovolený názov';
+$lang_custom_post_type_error_unknown_entry = 'Tento príspevok nie je známy';
 
 // Status messages - Stavové správy
 $lang_status_ok = 'Údaje su uložené';
@@ -249,6 +251,8 @@ $lang_settings_wysiwygpages = 'V Stránkach povoliť WYSIWYG editor (inak HTML a
 $lang_settings_title_made_in_pulse = 'Vyrobené v Pulse';
 $lang_settings_made_in_pulse = 'Made in Pulse odznak pridané';
 $lang_settings_made_in_pulse_label = 'Povoliť odznak Made in Pulse pre šablónu';
+$lang_settings_theme_meta_author_show = 'Vložte autora témy';
+$lang_settings_theme_meta_author_show_label = 'Vložiť autora témy do popisu meta';;
 
 // Settings: Media
 $lang_settings_title_media = 'Media';
@@ -274,7 +278,7 @@ $lang_settings_google_tooltip = 'Tu pridajte útržok kódu služby Google Analy
 // Settings: GeoIP
 $lang_settings_title_geoip = 'GeoIP';
 $lang_settings_geoip = 'Údaje GeoIP pre štatistiky webu';
-$lang_settings_geoip_label = 'Povoliť GeoIP pre štatistiku tu';
+$lang_settings_geoip_label = 'Povoliť GeoIP pre štatistikách tu';
 
 // Settings: OGP - Open Graph protocol >> http://ogp.me/
 $lang_settings_title_ogp = '(OGP) Otvorené grafické protokoly';
@@ -316,6 +320,13 @@ $lang_settings_smtphost_tooltip = 'mail.server.com';
 $lang_settings_smtpport = 'SMTP port';
 $lang_settings_smtpport_tooltip = '465';
 
+// Settings: SweetAlert
+$lang_settings_title_sweetalert = 'Nastavenia upozornenia';
+$lang_settings_sweetalert_active_tooltip = 'Aktivovať upozornenia';
+$lang_settings_sweetalert_active = 'Aktivovať';
+$lang_settings_sweetalert_timeout_tooltip = 'Časové oneskorenie (milisekundy)';
+$lang_settings_sweetalert_timeout = 'Časový limit';
+
 // Settings: Pagination
 $lang_settings_title_pagination = 'Stránkovanie';
 $lang_settings_paginationlinks = 'Odkazy na stránke zobrazovať';
@@ -343,6 +354,10 @@ $lang_settings_formsubject_tooltip = 'Dostali ste e-mail';
 $lang_settings_formthanks = 'Po odoslaní povoľte automatickú odpoveď poďakovaním';
 $lang_settings_formredirect = 'Presmerovanie na poďakovanie';
 $lang_settings_formredirect_tooltip = 'http://moj_web.sk/podakovanie';
+$lang_settings_formcomment = 'Text/Štítok pre komentáre';
+$lang_settings_formcommentname_tooltip = 'Komentáre';
+$lang_settings_formphone = 'Text/Štítok pre telefón';
+$lang_settings_formphonename_tooltip = 'Telefón';
 
 // Settings: OTP One-Time Password
 $lang_settings_title_otp = 'Nastavenia jednorazového hesla (Admin)';
@@ -375,12 +390,12 @@ $lang_settings_title_editorpagesaccess = 'Povoliť editoru prístup k ľubovoľn
 $lang_settings_title_themes = 'Motívy (motívy stránok)';
 $lang_settings_themeselect = 'Motív vybraný';
 $lang_settings_themeupload = 'Nahrať motív ZIP';
-$lang_settings_title_plugins = 'Upraviť položku vlastného príspevku napíšte:';
+$lang_settings_title_plugins = 'Pluginy';
 $lang_settings_pluginupload = 'Nahrať plugin ZIP';
 $lang_settings_title_customposts = 'Vlastné typy príspevkov';
 $lang_settings_managecustomposts = 'Spravovať vlastné typy príspevkov';
 $lang_settings_themeuploader = 'Nahrajte nový súbor ZIP s motívom';
-$lang_settings_pluginupload = 'Nahrať nový plugin, súbor ZIP';
+$lang_settings_pluginuploader = 'Nahrať nový plugin, súbor ZIP';
 
 // Settings: Media
 $lang_settings_mediaupload = 'Nahrajte mediálny súbor';
@@ -389,6 +404,10 @@ $lang_settings_mediaupload = 'Nahrajte mediálny súbor';
 $lang_settings_navigationtitle = 'Správa navigačných odkazov';
 $lang_settings_navigationsubtitle = 'Potiahnutím a presunutím zmeňte poradie zoznamu.';
 $lang_settings_navigationsubmenu = 'Pridajte podmenu';
+$lang_settings_navigation_non_pulse_page = 'Pridať externú položku do navigácie';
+$lang_settings_navigation_non_pulse_name = 'Názov';
+$lang_settings_navigation_non_pulse_url  = 'URL';
+$lang_settings_navigation_activate = 'Aktivovať';
 
 // Settings: Custom Post Type
 $lang_settings_custompostentries = 'Vlastné príspevky pre položky typu:';
@@ -403,12 +422,21 @@ $lang_settings_custompostmanage = 'spravovať záznamy';
 $lang_settings_custompostmanageedit = 'editovať';
 $lang_settings_custompostmanageadd = 'Pridať nový vlastný typ príspevku';
 $lang_settings_title_custompostedit_title = 'Upravte svoj vlastný typ príspevku';
+$lang_settings_title_custompostedit_titlein = 'Upraviť položku vlastného príspevku v:';
 $lang_settings_custompostdefadd = 'Pridajte svoj vlastný typ príspevku';
 $lang_settings_custompostdeftypename = 'Názov typu príspevku';
 $lang_settings_custompostdefname = 'Názov';
 $lang_settings_custompostdeftype = 'Typ';
 $lang_settings_custompostdeffield = 'Pole';
 $lang_settings_custompostcontent = 'Obsah';
+
+// Tags
+$lang_settings_title_tags = 'Značky (Tagy)';
+$lang_settings_manage_tags = 'Správa značiek';
+$lang_settings_tags_title = 'Spravovať značky';
+$lang_settings_tags_subtitle = 'Pridať / Odstrániť značky a popisy.';
+$lang_settings_tags_name = 'Meno';
+$lang_settings_tags_description = 'Popis';
 
 // Search
 $lang_search_title = 'Vyhľadávanie';
@@ -420,4 +448,3 @@ $lang_search_links = 'Odkaz na';
 
 // Page List
 $lang_pagelist = 'Zoznam stránok';
-?>
