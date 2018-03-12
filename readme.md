@@ -11,3 +11,5 @@ _But_, if there are any other "completed" Pulse 5 language files, they can also 
 - Also use [this machine translation tool](https://ivaro.php5.sk/langs/) to get a head start!
 
 - Also see: [https://github.com/IvaRoSoft/Pulse-CMS-5-Languages-sk-cz-pl-hu](https://github.com/IvaRoSoft/Pulse-CMS-5-Languages-sk-cz-pl-hu) for Pulse 5 in progress of Polish, Slovak, Hungarian and Czech
+
+Last Updated on:12.03.2018
