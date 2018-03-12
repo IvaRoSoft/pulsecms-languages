@@ -1,5 +1,5 @@
 <?php
-// Lang "CZ"
+// Lang "CS"
 //Global - Globální
 $lang_cancel = "Zrušit";
 $lang_duplicate = "Duplikát";
