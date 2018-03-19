@@ -258,7 +258,7 @@
 			properties:"Vlastnosti",
 			
 			// specialchars
-	               "specialchars": "peciální znaky",
+	               "specialchars": "Speciální znaky",
 			
 			// table
 			table:"Tabulka",
