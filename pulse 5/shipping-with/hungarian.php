@@ -473,19 +473,15 @@ $lang_settings_title_template_strings = 'Sablon szöveg';
 $lang_settings_template_string_admin_login_welcome_tooltip = 'Rendszergazda bejelentkezés, üdvözlő szöveg. Jelenlegi: Hello! Felhasználó Pulse';
 $lang_settings_template_string_admin_login_welcome = 'Bejelentkezés üdvözlő szöveg';
 
-# User Group List
+// User Group List
 $lang_settings_title_user_group_list  = 'Felhasználói csoportlista';
 $lang_settings_manage_user_group_list = 'Felhasználói csoportlista kezelése';
-
-$lang_settings_user_group_list_title    = 'Csoportok kezelése';
-$lang_settings_user_group_list_subtitle = 'Csoportok hozzáadása / törlése';
-
+$lang_settings_user_group_list_title = 'Csoportok kezelése';
+$lang_settings_user_group_list_subtitle = 'Csoportok hozzáadása/törlése';
 $lang_settings_user_group_list_group_name  = 'Csoport név';
 $lang_settings_user_group_list_permissions = 'Hozzáférési jogosultságok';
-
-$lang_settings_user_group_list_read       = 'Olvas';
-$lang_settings_user_group_list_read_write = 'Ír olvas';
-
+$lang_settings_user_group_list_read = 'Olvasás';
+$lang_settings_user_group_list_read_write = 'Olvasás/írás';
 $lang_settings_user_group_list_access_denied = 'Az elemhez való hozzáférés megtagadva';
 
 // User List
