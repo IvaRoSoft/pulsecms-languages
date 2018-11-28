@@ -455,7 +455,7 @@ $lang_settings_custompostdeftype = 'Typ';
 $lang_settings_custompostdeffield = 'Obszar';
 $lang_settings_custompostcontent = 'Treść';
 
-# log viewer
+// log viewer
 $lang_settings_log_viewer_log_files   = 'Pliki dziennika';
 $lang_settings_log_viewer_log_content = 'Wpisy do dziennika'; 
 
@@ -472,19 +472,15 @@ $lang_settings_title_template_strings = 'Tekst szablonu';
 $lang_settings_template_string_admin_login_welcome_tooltip = 'Wszystko w znaczniku zakresu jest podświetlone. Bieżąca: Cześć! Użytkownik Pulse';
 $lang_settings_template_string_admin_login_welcome = 'Cześć! Użytkownik Pulse';
 
-# User Group List
+// User Group List
 $lang_settings_title_user_group_list  = 'Lista grup użytkowników';
 $lang_settings_manage_user_group_list = 'Zarządzaj listą grup użytkowników';
-
 $lang_settings_user_group_list_title    = 'Zarządzaj grupami';
-$lang_settings_user_group_list_subtitle = 'Dodaj / usuń grupy';
-
+$lang_settings_user_group_list_subtitle = 'Dodaj/usuń grupy';
 $lang_settings_user_group_list_group_name  = 'Nazwa grupy';
 $lang_settings_user_group_list_permissions = 'Uzyskaj uprawnienia';
-
 $lang_settings_user_group_list_read       = 'Czytać';
-$lang_settings_user_group_list_read_write = 'Odczyt / zapis';
-
+$lang_settings_user_group_list_read_write = 'Odczyt/zapis';
 $lang_settings_user_group_list_access_denied = 'Dostęp do tego elementu jest zabroniony';
 
 // User List
